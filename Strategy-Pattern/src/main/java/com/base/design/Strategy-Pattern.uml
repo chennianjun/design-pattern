@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="346.0" y="104.0">com.base.gof.GivenGreenLight</node>
+    <node x="173.0" y="0.0">com.base.gof.IStrategy</node>
+    <node x="223.0" y="203.0">com.base.gof.ZhaoYun</node>
+    <node x="0.0" y="203.0">com.base.gof.Context</node>
+    <node x="0.0" y="104.0">com.base.gof.BlockEnemy</node>
+    <node x="173.0" y="104.0">com.base.gof.BackDoor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.base.gof.GivenGreenLight" target="com.base.gof.IStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="422.5" y="79.0" />
+      <point x="300.5" y="79.0" />
+      <point x="51.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.BackDoor" target="com.base.gof.IStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.BlockEnemy" target="com.base.gof.IStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="76.5" y="79.0" />
+      <point x="198.5" y="79.0" />
+      <point x="-51.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.base.gof.ZhaoYun</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

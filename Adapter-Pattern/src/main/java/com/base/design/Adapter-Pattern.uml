@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="102.75" y="208.0">com.base.gof.Adapter</node>
+    <node x="0.0" y="104.0">com.base.gof.Target</node>
+    <node x="0.0" y="307.0">com.base.gof.Client</node>
+    <node x="204.0" y="0.0">com.base.gof.Adaptee</node>
+    <node x="204.0" y="104.0">com.base.gof.AdapteeImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.base.gof.Adapter" target="com.base.gof.AdapteeImpl">
+      <point x="46.0" y="-27.0" />
+      <point x="240.75" y="183.0" />
+      <point x="297.5" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.Adapter" target="com.base.gof.Target">
+      <point x="-46.0" y="-27.0" />
+      <point x="148.75" y="183.0" />
+      <point x="92.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.AdapteeImpl" target="com.base.gof.Adaptee">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.base.gof.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

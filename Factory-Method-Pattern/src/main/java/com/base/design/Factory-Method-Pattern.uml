@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="485.05" y="277.0">com.base.gof.NvWa</node>
+    <node x="96.0" y="150.0">com.base.gof.HumanFactory</node>
+    <node x="-630.0" y="2.0">com.base.gof.ClassUtils</node>
+    <node x="664.0" y="161.5">com.base.gof.impl.YellowHuman</node>
+    <node x="505.0" y="161.5">com.base.gof.impl.WhiteHuman</node>
+    <node x="515.09375" y="23.0">com.base.gof.Human</node>
+    <node x="346.0" y="161.5">com.base.gof.impl.BlackHuman</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.base.gof.HumanFactory" target="com.base.gof.ClassUtils">
+      <point x="-57.5" y="-38.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.impl.BlackHuman">
+      <point x="-35.400000000000034" y="-27.0" />
+      <point x="538.15" y="247.0" />
+      <point x="415.5" y="247.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.HumanFactory">
+      <point x="-70.80000000000001" y="-27.0" />
+      <point x="502.75" y="257.0" />
+      <point x="211.0" y="257.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.impl.WhiteHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.HumanFactory" target="com.base.gof.Human">
+      <point x="57.5" y="-38.5" />
+      <point x="268.5" y="120.0" />
+      <point x="528.99375" y="120.0" />
+      <point x="-55.599999999999994" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.impl.BlackHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="415.5" y="130.0" />
+      <point x="556.79375" y="130.0" />
+      <point x="-27.80000000000001" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.Human">
+      <point x="70.80000000000003" y="-27.0" />
+      <point x="644.35" y="257.0" />
+      <point x="813.5" y="257.0" />
+      <point x="813.5" y="120.0" />
+      <point x="640.19375" y="120.0" />
+      <point x="55.599999999999994" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.impl.WhiteHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="574.5" y="130.0" />
+      <point x="584.59375" y="130.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.impl.YellowHuman">
+      <point x="35.39999999999998" y="-27.0" />
+      <point x="608.9499999999999" y="247.0" />
+      <point x="733.5" y="247.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.impl.YellowHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="733.5" y="130.0" />
+      <point x="612.39375" y="130.0" />
+      <point x="27.799999999999983" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.5" y="137.5" />
+  <SelectedNodes>
+    <node>com.base.gof.ClassUtils</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

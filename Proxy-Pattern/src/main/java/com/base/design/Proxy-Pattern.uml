@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="871.5" y="293.0">com.base.gof.XiMenQing</node>
+    <node x="571.5" y="109.5">com.base.gof.WangPo</node>
+    <node x="251.5" y="121.5">com.base.gof.KindWomen</node>
+    <node x="-28.5" y="121.5">com.base.gof.JiaShi</node>
+    <node x="851.5" y="401.5">com.base.gof.PanJinLian</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.base.gof.WangPo" target="com.base.gof.KindWomen">
+      <point x="-40.0" y="50.5" />
+      <point x="640.0" y="280.0" />
+      <point x="400.0" y="280.0" />
+      <point x="40.0" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.XiMenQing" target="com.base.gof.WangPo">
+      <point x="-88.5" y="0.0" />
+      <point x="680.0" y="320.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.base.gof.PanJinLian" target="com.base.gof.KindWomen">
+      <point x="-108.5" y="0.0" />
+      <point x="360.0" y="440.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.XiMenQing" target="com.base.gof.PanJinLian">
+      <point x="88.5" y="0.0" />
+      <point x="1120.0" y="320.0" />
+      <point x="1120.0" y="440.0" />
+      <point x="108.5" y="0.0" />
+    </edge>
+    <edge source="com.base.gof.XiMenQing" target="com.base.gof.JiaShi">
+      <point x="0.0" y="-27.0" />
+      <point x="960.0" y="0.0" />
+      <point x="80.0" y="0.0" />
+      <point x="0.0" y="-38.5" />
+    </edge>
+    <edge source="com.base.gof.JiaShi" target="com.base.gof.KindWomen">
+      <point x="108.5" y="0.0" />
+      <point x="-108.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.5" y="205.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

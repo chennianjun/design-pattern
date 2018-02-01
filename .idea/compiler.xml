@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Abstract-Factory-Pattern" />
+        <module name="Adapter-Pattern" />
+        <module name="Facade-Pattern" />
+        <module name="Factory-Metho-Pattern" />
+        <module name="Factory-Method-Pattern" />
+        <module name="Multition-Pattern" />
+        <module name="Proxy-Pattern" />
+        <module name="Proxy-pattern" />
+        <module name="Singleton-Pattern" />
+        <module name="strategy-pattern" />
+        <module name="Strategy-Pattern" />
+        <module name="Template-Method-Pattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Abstract-Factory-Pattern" target="1.8" />
+      <module name="Adapter-Pattern" target="1.8" />
+      <module name="design-pattern" target="1.8" />
+      <module name="Facade-Pattern" target="1.8" />
+      <module name="Factory-Metho-Pattern" target="1.8" />
+      <module name="Factory-Method-Pattern" target="1.8" />
+      <module name="Multition-Pattern" target="1.8" />
+      <module name="Proxy-Pattern" target="1.8" />
+      <module name="Proxy-pattern" target="1.8" />
+      <module name="Singleton-Pattern" target="1.8" />
+      <module name="Strategy-Pattern" target="1.8" />
+      <module name="strategy-pattern" target="1.8" />
+      <module name="Template-Method-Pattern" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

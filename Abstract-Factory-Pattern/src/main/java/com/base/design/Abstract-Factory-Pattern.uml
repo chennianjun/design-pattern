@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="401.0">com.base.gof.FemaleHumanFactory</node>
+    <node x="871.7879464285714" y="297.0">com.base.gof.WhiteFemaleHuman</node>
+    <node x="779.625" y="170.0">com.base.gof.AbstractWhiteHuman</node>
+    <node x="103.98214285714289" y="158.0">com.base.gof.HumanEnum</node>
+    <node x="1142.125" y="170.0">com.base.gof.AbstractBlackHuman</node>
+    <node x="1410.7879464285716" y="297.0">com.base.gof.YellowMaleHuman</node>
+    <node x="448.1071428571429" y="551.0">com.base.gof.NvWa</node>
+    <node x="492.91294642857144" y="147.0">com.base.gof.HumanFactory</node>
+    <node x="1494.625" y="170.0">com.base.gof.AbstractYellowHuman</node>
+    <node x="695.6830357142858" y="0.0">com.base.gof.Human</node>
+    <node x="198.3571428571429" y="297.0">com.base.gof.AbstractHumanFactory</node>
+    <node x="1587.7879464285716" y="297.0">com.base.gof.YellowFemaleHuman</node>
+    <node x="1056.7879464285716" y="297.0">com.base.gof.BlackFemaleHuman</node>
+    <node x="257.0" y="401.0">com.base.gof.MaleHumanFactory</node>
+    <node x="1239.7879464285716" y="297.0">com.base.gof.BlackMaleHuman</node>
+    <node x="698.7879464285714" y="297.0">com.base.gof.WhiteMaleHuman</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.base.gof.BlackMaleHuman" target="com.base.gof.AbstractBlackHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="1315.2879464285716" y="272.0" />
+      <point x="1269.625" y="272.0" />
+      <point x="42.5" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.MaleHumanFactory">
+      <point x="-22.125" y="-27.0" />
+      <point x="514.4821428571429" y="521.0" />
+      <point x="375.5" y="521.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.FemaleHumanFactory">
+      <point x="-66.375" y="-27.0" />
+      <point x="470.2321428571429" y="531.0" />
+      <point x="118.5" y="531.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.base.gof.WhiteMaleHuman" target="com.base.gof.AbstractWhiteHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="775.2879464285714" y="272.0" />
+      <point x="822.625" y="272.0" />
+      <point x="-43.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.AbstractHumanFactory" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="334.8571428571429" y="107.0" />
+      <point x="721.7455357142858" y="107.0" />
+      <point x="-43.4375" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.FemaleHumanFactory" target="com.base.gof.AbstractHumanFactory">
+      <point x="79.0" y="-50.0" />
+      <point x="197.5" y="381.0" />
+      <point x="266.6071428571429" y="381.0" />
+      <point x="-68.25" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.Human">
+      <point x="66.375" y="-27.0" />
+      <point x="602.9821428571429" y="531.0" />
+      <point x="1767.2879464285716" y="531.0" />
+      <point x="1767.2879464285716" y="97.0" />
+      <point x="825.9955357142858" y="97.0" />
+      <point x="60.8125" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.YellowFemaleHuman" target="com.base.gof.AbstractYellowHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="1672.2879464285716" y="272.0" />
+      <point x="1626.625" y="272.0" />
+      <point x="44.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.MaleHumanFactory" target="com.base.gof.HumanEnum">
+      <point x="-79.0" y="-50.0" />
+      <point x="296.5" y="371.0" />
+      <point x="172.4821428571429" y="371.0" />
+      <point x="172.4821428571429" y="272.0" />
+      <point x="198.4821428571429" y="272.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.base.gof.BlackFemaleHuman" target="com.base.gof.AbstractBlackHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="1138.2879464285716" y="272.0" />
+      <point x="1184.625" y="272.0" />
+      <point x="-42.5" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.AbstractBlackHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="1227.125" y="117.0" />
+      <point x="791.2455357142858" y="117.0" />
+      <point x="26.0625" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.AbstractHumanFactory" target="com.base.gof.HumanEnum">
+      <point x="-91.0" y="-27.0" />
+      <point x="243.8571428571429" y="272.0" />
+      <point x="261.4821428571429" y="272.0" />
+      <point x="63.0" y="39.0" />
+    </edge>
+    <edge source="com.base.gof.FemaleHumanFactory" target="com.base.gof.HumanEnum">
+      <point x="0.0" y="-50.0" />
+      <point x="118.5" y="381.0" />
+      <point x="113.125" y="381.0" />
+      <point x="113.125" y="272.0" />
+      <point x="135.4821428571429" y="272.0" />
+      <point x="-63.0" y="39.0" />
+    </edge>
+    <edge source="com.base.gof.AbstractYellowHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="1582.625" y="107.0" />
+      <point x="808.6205357142858" y="107.0" />
+      <point x="43.4375" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.WhiteFemaleHuman" target="com.base.gof.AbstractWhiteHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="954.2879464285714" y="272.0" />
+      <point x="908.625" y="272.0" />
+      <point x="43.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.MaleHumanFactory" target="com.base.gof.AbstractHumanFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="375.5" y="381.0" />
+      <point x="403.1071428571429" y="381.0" />
+      <point x="68.25" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.NvWa" target="com.base.gof.HumanFactory">
+      <point x="22.125" y="-27.0" />
+      <point x="558.7321428571429" y="521.0" />
+      <point x="670.6629464285714" y="521.0" />
+      <point x="59.25" y="50.0" />
+    </edge>
+    <edge source="com.base.gof.YellowMaleHuman" target="com.base.gof.AbstractYellowHuman">
+      <point x="0.0" y="-27.0" />
+      <point x="1489.2879464285716" y="272.0" />
+      <point x="1538.625" y="272.0" />
+      <point x="-44.0" y="27.0" />
+    </edge>
+    <edge source="com.base.gof.HumanFactory" target="com.base.gof.Human">
+      <point x="0.0" y="-50.0" />
+      <point x="611.4129464285714" y="127.0" />
+      <point x="756.4955357142858" y="127.0" />
+      <point x="-8.6875" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.MaleHumanFactory" target="com.base.gof.Human">
+      <point x="79.0" y="-50.0" />
+      <point x="454.5" y="381.0" />
+      <point x="482.41294642857144" y="381.0" />
+      <point x="482.41294642857144" y="117.0" />
+      <point x="739.1205357142858" y="117.0" />
+      <point x="-26.0625" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.AbstractWhiteHuman" target="com.base.gof.Human">
+      <point x="0.0" y="-27.0" />
+      <point x="865.625" y="127.0" />
+      <point x="773.8705357142858" y="127.0" />
+      <point x="8.6875" y="38.5" />
+    </edge>
+    <edge source="com.base.gof.AbstractHumanFactory" target="com.base.gof.HumanFactory">
+      <point x="91.0" y="-27.0" />
+      <point x="425.8571428571429" y="272.0" />
+      <point x="552.1629464285714" y="272.0" />
+      <point x="-59.25" y="50.0" />
+    </edge>
+    <edge source="com.base.gof.FemaleHumanFactory" target="com.base.gof.Human">
+      <point x="-79.0" y="-50.0" />
+      <point x="39.5" y="381.0" />
+      <point x="34.5" y="381.0" />
+      <point x="34.5" y="97.0" />
+      <point x="704.3705357142858" y="97.0" />
+      <point x="-60.8125" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="842.0" y="418.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
