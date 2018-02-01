@@ -10,14 +10,24 @@ package com.base.gof;
 public abstract class AbstractHummerMode {
 
     protected abstract void start();
+
     protected abstract void stop();
+
     protected abstract void alarm();
+
     protected abstract void engineBoom();
 
-    public final void run(){
+    //java所谓的钩子函数
+    protected boolean isAlarm(){
+        return true;
+    }
+
+    public final void run() {
         this.start();
         this.engineBoom();
-        this.alarm();
+        if (this.isAlarm()) {
+            this.alarm();
+        }
         this.stop();
     }
 }
