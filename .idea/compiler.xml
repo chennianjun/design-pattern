@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Abstract-Factory-Pattern" />
         <module name="Adapter-Pattern" />
+        <module name="Builder-Pattern" />
         <module name="Facade-Pattern" />
         <module name="Factory-Metho-Pattern" />
         <module name="Factory-Method-Pattern" />
@@ -23,6 +24,7 @@
     <bytecodeTargetLevel>
       <module name="Abstract-Factory-Pattern" target="1.8" />
       <module name="Adapter-Pattern" target="1.8" />
+      <module name="Builder-Pattern" target="1.8" />
       <module name="design-pattern" target="1.8" />
       <module name="Facade-Pattern" target="1.8" />
       <module name="Factory-Metho-Pattern" target="1.8" />

@@ -18,6 +18,7 @@
         <module>Facade-Pattern</module>
         <module>Adapter-Pattern</module>
         <module>Template-Method-Pattern</module>
+        <module>Builder-Pattern</module>
     </modules>
 
 

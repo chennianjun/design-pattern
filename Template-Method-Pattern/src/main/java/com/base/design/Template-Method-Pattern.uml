@@ -3,51 +3,33 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="227.5" y="462.0">com.base.gof.Client</node>
-    <node x="-57.0" y="227.5">com.base.gof.HummerH2Model</node>
-    <node x="224.5" y="0.0">com.base.gof.AbstractHummerMode</node>
-    <node x="201.0" y="219.0">com.base.gof.HummerH1Model</node>
+    <node x="0.0" y="457.0">com.base.gof.Client</node>
+    <node x="250.0" y="242.5">com.base.gof.HummerH2Model</node>
+    <node x="136.25" y="0.0">com.base.gof.AbstractHummerMode</node>
+    <node x="-15.0" y="407.0">com.base.gof.HummerH1Model</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.base.gof.Client" target="com.base.gof.AbstractHummerMode">
-      <point x="66.375" y="-27.0" />
-      <point x="382.375" y="437.0" />
-      <point x="441.5" y="437.0" />
-      <point x="441.5" y="194.0" />
-      <point x="377.0" y="194.0" />
-      <point x="61.0" y="84.5" />
-    </edge>
-    <edge source="com.base.gof.Client" target="com.base.gof.HummerH1Model">
-      <point x="-22.125" y="-27.0" />
-      <point x="293.875" y="437.0" />
-      <point x="258.5" y="437.0" />
-      <point x="-57.5" y="96.5" />
+    <edge source="com.base.gof.HummerH2Model" target="com.base.gof.AbstractHummerMode">
+      <point x="0.0" y="-73.0" />
+      <point x="340.5" y="194.0" />
+      <point x="273.5" y="194.0" />
+      <point x="45.75" y="84.5" />
     </edge>
     <edge source="com.base.gof.HummerH1Model" target="com.base.gof.AbstractHummerMode">
       <point x="0.0" y="-96.5" />
-      <point x="0.0" y="84.5" />
-    </edge>
-    <edge source="com.base.gof.Client" target="com.base.gof.HummerH2Model">
-      <point x="-66.375" y="-27.0" />
-      <point x="249.625" y="437.0" />
-      <point x="90.5" y="437.0" />
-      <point x="0.0" y="73.0" />
-    </edge>
-    <edge source="com.base.gof.HummerH2Model" target="com.base.gof.AbstractHummerMode">
-      <point x="0.0" y="-73.0" />
-      <point x="90.5" y="194.0" />
-      <point x="255.0" y="194.0" />
-      <point x="-61.0" y="84.5" />
+      <point x="115.0" y="194.0" />
+      <point x="182.0" y="194.0" />
+      <point x="-45.75" y="84.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="188.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="187.0" y="258.0" />
   <SelectedNodes>
-    <node>com.base.gof.HummerH2Model</node>
+    <node>com.base.gof.HummerH1Model</node>
   </SelectedNodes>
   <Categories>
-    <Category>Methods</Category>
     <Category>Fields</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
